@@ -19,7 +19,7 @@ public class AddItemsAndCheckoutTest extends BaseTest {
 
         Assert.assertTrue(homePage.isUserLoggedIn(), "Login failed!");
 
-        // Navigate to Desktops and add items
+        // Navigate to Desktops and add the items
         homePage.clickComputersTab();
         homePage.clickDesktopsLink();
 
@@ -42,7 +42,7 @@ public class AddItemsAndCheckoutTest extends BaseTest {
         itemPage.selectProcessor("Slow");
         itemPage.clickAddToCart();
 
-        // Validate cart total
+        // Check the cart total
         homePage.clickShoppingCart();
         CartPage cartPage = new CartPage(driver);
         Assert.assertEquals(cartPage.getTotalPrice(), 4695.00, "Cart total mismatch!");

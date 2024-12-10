@@ -22,7 +22,7 @@ public class RegisterUserTest extends BaseTest {
         HomePage homePage = new HomePage(driver);
         homePage.clickRegister();
 
-        // Perform registration
+        // Complete the registration
         RegisterPage registerPage = new RegisterPage(driver);
         registerPage.registerUser("Test", "User", randomEmail, "Password123", "Password123");
 

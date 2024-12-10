@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.demowebshop.tests.AddItemsAndCheckoutTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 42.966 sec <<< FAILURE!
+testAddItemsAndCompleteCheckout(com.demowebshop.tests.AddItemsAndCheckoutTest)  Time elapsed: 34.51 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .order-completed .order-number (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.9.3-76060903-generic', java.version: '11.0.25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.85, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39833}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:39833/devtoo..., se:cdpVersion: 131.0.6778.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d6673d5984264d1c039449e6f7ea90b
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.demowebshop.pages.CheckoutPage.getOrderNumber(CheckoutPage.java:82)
+	at com.demowebshop.tests.AddItemsAndCheckoutTest.testAddItemsAndCompleteCheckout(AddItemsAndCheckoutTest.java:69)
+

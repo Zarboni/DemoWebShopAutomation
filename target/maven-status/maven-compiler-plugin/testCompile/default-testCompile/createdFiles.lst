@@ -1,0 +1,15 @@
+com/demowebshop/tests/AddItemsAndCheckoutTest.class
+com/demowebshop/pages/CustomerOrdersPage.class
+com/demowebshop/pages/CheckoutPage.class
+com/demowebshop/pages/CartPage.class
+com/demowebshop/pages/RegisterPage.class
+com/demowebshop/pages/HomePage.class
+com/demowebshop/pages/DesktopsPage.class
+com/demowebshop/tests/LoginTest.class
+com/demowebshop/tests/RegisterUserTest.class
+com/demowebshop/base/BaseTest.class
+com/demowebshop/tests/DesktopSortingTest.class
+com/demowebshop/tests/ComputersAndDesktopTest.class
+com/demowebshop/pages/LoginPage.class
+com/demowebshop/pages/ItemPage.class
+com/demowebshop/tests/NavigationTest.class
